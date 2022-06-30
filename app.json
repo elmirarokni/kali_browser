@@ -43,6 +43,11 @@
         "required":true
       }
     },
+      "buildpacks": [
+    {
+      "url": "https://github.com/dockhero/heroku-buildpack-docker-compose.git"
+    }
+  ],
     "website": "",
     "repository": "https://github.com/elmirarokni/kali_browser.git",
     "logo": "https://cdn.discordapp.com/attachments/909394927430021171/912671624036249600/IMG_20211116_150507.png",
