@@ -1,0 +1,50 @@
+{
+    "name": "kali_browser",
+    "description": "Kali in the browser via docker & novnc. Mounts local dir to container.",
+    "keywords": [
+        "VNC",
+        "Docker",
+        "noVNC"
+    ],
+       "env":{
+      "USER":{
+        "description" : "do not change it",
+        "value": "root",
+        "required":true
+      },
+        "VNCPORT":{
+        "description" : "do not change it",
+        "value": "5900",
+        "required":true
+      },
+        "VNCPWD":{
+        "description" : "do not change it",
+        "value": "12345678",
+        "required":true
+      },
+        "VNCDISPLAY":{
+        "description" : "do not change it",
+        "value": "1920x1080",
+        "required":true
+      },
+        "VNCDEPTH":{
+        "description" : "do not change it",
+        "value": "16",
+        "required":true
+      },
+        "NOVNCPORT":{
+        "description" : "do not change it",
+        "value": "8080",
+        "required":true
+      },
+        "DEBIAN_FRONTEND":{
+        "description" : "do not change it",
+        "value": "noninteractive",
+        "required":true
+      }
+    },
+    "website": "",
+    "repository": "https://github.com/rajnikantmahato/heroku20.04-root.git",
+    "logo": "https://cdn.discordapp.com/attachments/909394927430021171/912671624036249600/IMG_20211116_150507.png",
+    "stack": "container"
+}
